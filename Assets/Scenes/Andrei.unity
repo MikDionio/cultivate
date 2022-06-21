@@ -7731,7 +7731,7 @@ GameObject:
   - component: {fileID: 1579692193}
   - component: {fileID: 1579692192}
   m_Layer: 0
-  m_Name: Flowchart_Lab
+  m_Name: LabFlowchart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
