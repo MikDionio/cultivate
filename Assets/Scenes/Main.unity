@@ -6533,6 +6533,15 @@ GameObject:
   - component: {fileID: 1557808960}
   - component: {fileID: 1557808959}
   - component: {fileID: 1557808958}
+  - component: {fileID: 1557809011}
+  - component: {fileID: 1557809010}
+  - component: {fileID: 1557809009}
+  - component: {fileID: 1557809008}
+  - component: {fileID: 1557809007}
+  - component: {fileID: 1557809006}
+  - component: {fileID: 1557809005}
+  - component: {fileID: 1557809004}
+  - component: {fileID: 1557809003}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6744,7 +6753,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 555.0557
     y: 253.24107
-    width: 98.78049
+    width: 95.90164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6786,7 +6795,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 743
     y: 57.219513
-    width: 110.97562
+    width: 109.0164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6810,21 +6819,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 83.73215, y: -765.49255}
+  scrollPos: {x: 337.6823, y: -768.61505}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.81999993
+  zoom: 0.6099999
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1557808960}
-  selectedCommands:
-  - {fileID: 1557808959}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1557808951}
   - {fileID: 1557808950}
@@ -6915,9 +6922,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 274.81918
-    y: 1140.4514
-    width: 150
+    x: 298.81918
+    y: 1100.4514
+    width: 145.08199
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6978,9 +6985,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 255.73326
-    y: 1020.5457
-    width: 184.14635
+    x: 279.73328
+    y: 980.5457
+    width: 177.86887
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7041,9 +7048,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2.4792202
-    y: 1027.5593
-    width: 198.7805
+    x: 45.248055
+    y: 982.7412
+    width: 194.26231
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7110,7 +7117,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 295.38742
     y: 873.6254
-    width: 148.78049
+    width: 143.44264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7173,7 +7180,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 276.30182
     y: 753.7193
-    width: 182.92683
+    width: 176.22952
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7236,7 +7243,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52.294083
     y: 750.10175
-    width: 197.56099
+    width: 192.62297
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7303,7 +7310,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317.97342
     y: 650.95886
-    width: 103.65854
+    width: 99.180336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7366,7 +7373,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 296.23993
     y: 531.05273
-    width: 137.80489
+    width: 131.96722
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7429,7 +7436,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 102.16905
     y: 530.29236
-    width: 152.43903
+    width: 148.36067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7496,7 +7503,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 282.29413
     y: 409.6086
-    width: 151.21951
+    width: 143.44264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7559,7 +7566,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 261.78018
     y: 289.70245
-    width: 185.36586
+    width: 176.22952
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7622,7 +7629,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.264355
     y: 288.9421
-    width: 200.00002
+    width: 192.62297
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7685,7 +7692,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52.58562
     y: 54.558502
-    width: 168.2927
+    width: 163.11478
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7748,7 +7755,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.8909
     y: 52.68731
-    width: 153.65854
+    width: 146.72133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7815,7 +7822,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 275.29962
     y: 168.64601
-    width: 147.56097
+    width: 141.80328
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7825,6 +7832,199 @@ MonoBehaviour:
   eventHandler: {fileID: 1557809000}
   commandList:
   - {fileID: 1557809001}
+  suppressAllAutoSelections: 0
+--- !u!114 &1557809003
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557808938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1557809005}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 0}
+--- !u!114 &1557809004
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557808938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 544110277}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
+--- !u!114 &1557809005
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557808938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 294.63626
+    y: 1349.4402
+    width: 128.68854
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 5
+  blockName: GoToNightDay
+  description: 
+  eventHandler: {fileID: 1557809003}
+  commandList:
+  - {fileID: 1557809004}
+  suppressAllAutoSelections: 0
+--- !u!114 &1557809006
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557808938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1557809008}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 0}
+--- !u!114 &1557809007
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557808938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1557809005}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1557809008
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557808938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 264.07495
+    y: 1227.8951
+    width: 182.78691
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 5
+  blockName: ButtonDayNightDayView
+  description: 
+  eventHandler: {fileID: 1557809006}
+  commandList:
+  - {fileID: 1557809007}
+  suppressAllAutoSelections: 0
+--- !u!114 &1557809009
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557808938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1557809011}
+  suppressBlockAutoSelect: 0
+  message: nightDayView
+--- !u!114 &1557809010
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557808938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1557809005}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1557809011
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557808938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 14.835617
+    y: 1228.4512
+    width: 215.57379
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 5
+  blockName: MessageNightDayView (Copy)
+  description: 
+  eventHandler: {fileID: 1557809009}
+  commandList:
+  - {fileID: 1557809010}
   suppressAllAutoSelections: 0
 --- !u!1 &1599794642
 GameObject:
