@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4555616a2e381ae4d96939dad06f07c2, type: 3}
-  m_Name: New Recipe
+  m_Name: Bubble Bath Wash
   m_EditorClassIdentifier: 
   name: '"Bubble Bath Wash"'
-  sprite: {fileID: 0}
-  ingredient1: Nectar
-  ingredient2: Perfume
+  sprite: {fileID: 21300000, guid: c784f0adc2ce544be915fc26a2b4b510, type: 3}
+  ingredient1: nectar
+  ingredient2: perfume
   description: Fill a bath with poisonous fumes by adding water!
   directions: 
   unlocked: 0
