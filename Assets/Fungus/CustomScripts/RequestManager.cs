@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Fungus;
 
 public class RequestManager : MonoBehaviour
 {
     public List<Request> requestList = new List<Request>();
-    private int currentPage;
+    private int currentPage=-1;
 
     //Recipe Book Variables
     public GameObject nextPage, prevPage;
@@ -18,7 +19,7 @@ public class RequestManager : MonoBehaviour
     public void AddToList(Request request)
     {
         currentPage++;
-
+        
         requestList.Add(request);
         nextPage.SetActive(false);
         UpdateUI(requestList[currentPage]);
@@ -27,7 +28,6 @@ public class RequestManager : MonoBehaviour
         {
             prevPage.SetActive(true);
         }
-
     }
 
     public void NextPage()
@@ -46,7 +46,7 @@ public class RequestManager : MonoBehaviour
         currentPage--;
         UpdateUI(requestList[currentPage]);
         nextPage.SetActive(true);
-        if (currentPage==1)
+        if (currentPage==0)
         {
             prevPage.SetActive(false);
         }
@@ -77,6 +77,8 @@ public class RequestManager : MonoBehaviour
         UpdateUI(request);
         prevPage.SetActive(true);
         nextPage.SetActive(false);
+
+        Flowchart.BroadcastFungusMessage("CompleteRequest");
     }
 
 }
