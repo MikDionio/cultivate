@@ -7,9 +7,21 @@ using TMPro;
 public class RecipeManager : MonoBehaviour
 {
     public List<Recipe> RecipeList;
+
+    //Recipe List + Failed List Variables
     public TextMeshProUGUI title, ingredients, description, directions;
     public Image sprite;
     public GameObject recipeButtonParent, RecipeButtonPrefab, failedParent, failedPrefab;
+
+    //Pop up Variables
+    public GameObject repeatedCanvas, newPotionCanvas;
+    public TextMeshProUGUI repeatedTitle, newPotionTitle, newPotionDescription;
+    public Image repeatedSprite, newPotionSprite;
+    public Sprite specialPotion, normalPotion, dudPotion;
+
+    //Unlocking new potion
+    private int unlockedSpecialPotions=0;
+    public GameObject labDrawer, potionDisplay;
     public void Mix(string ingredient1, string ingredient2)
     {
         List<Recipe> checkIngredient1 = RecipeList.FindAll(x => x.ingredient1 == ingredient1);
@@ -21,6 +33,44 @@ public class RecipeManager : MonoBehaviour
             {
                 potion.unlockRecipe();
                 AddToRecipeList(potion);
+
+                newPotionTitle.text = potion.name;
+                newPotionDescription.text = potion.description;
+                if (potion.requestNumber > 0)
+                {
+                    newPotionSprite.sprite = specialPotion;
+                    unlockedSpecialPotions++;
+                    if (unlockedSpecialPotions >= 3)
+                    {
+                        labDrawer.SetActive(false);
+                        potionDisplay.SetActive(true);
+                    }
+                }
+                else
+                {
+                    newPotionSprite.sprite = normalPotion;
+                }
+                newPotionCanvas.SetActive(true);
+
+            }
+            else
+            {
+                if (potion.name == null)
+                {
+                    repeatedSprite.sprite = dudPotion;
+                    repeatedTitle.text = "Dud Item";
+                }
+                else if (potion.requestNumber > 0)
+                {
+                    repeatedSprite.sprite = specialPotion;
+                    repeatedTitle.text = potion.name;
+                }
+                else
+                {
+                    repeatedSprite.sprite = normalPotion;
+                    repeatedTitle.text = potion.name;
+                }
+                repeatedCanvas.SetActive(true);
             }
             
         }
@@ -29,8 +79,14 @@ public class RecipeManager : MonoBehaviour
             Recipe newRecipe = Recipe.CreateInstance<Recipe>();
             newRecipe.ingredient1 = ingredient1;
             newRecipe.ingredient2 = ingredient2;
+            newRecipe.unlockRecipe();
             RecipeList.Add(newRecipe);
             AddToFailedList(newRecipe);
+
+            newPotionTitle.text = "Dud Item";
+            newPotionDescription.text = "It certainly looks lethal, but it probably won't be useful for husband-killing.";
+            newPotionSprite.sprite = dudPotion;
+            newPotionCanvas.SetActive(true);
         }
 
     }
