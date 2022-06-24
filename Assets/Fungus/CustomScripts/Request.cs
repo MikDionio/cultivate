@@ -8,15 +8,22 @@ public class Request : ScriptableObject
     public new string name;
     public Sprite housewifeSprite;
     public string text;
+    public string defaultText;
+    public string completedText;
     public Recipe recipe;
     public bool completed;
+    public int requestNumber;
     private void OnEnable()
     {
         completed = false;
+        recipe = null;
+        text = defaultText;
     }
 
-    public void completeRequest()
+    public void CompleteRequest(Recipe potion)
     {
         completed = true;
+        text = completedText;
+        recipe = potion; 
     }
 }

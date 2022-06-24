@@ -21,3 +21,4 @@ MonoBehaviour:
   directions: 
   unlocked: 0
   requestNumber: 0
+  request: {fileID: 11400000, guid: d51893a813b7242448f63661d1101088, type: 2}

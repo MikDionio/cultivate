@@ -22,6 +22,8 @@ public class RecipeManager : MonoBehaviour
     //Unlocking new potion
     private int unlockedSpecialPotions=0;
     public GameObject labDrawer, potionDisplay;
+    public RequestManager requestManager;
+
     public void Mix(string ingredient1, string ingredient2)
     {
         List<Recipe> checkIngredient1 = RecipeList.FindAll(x => x.ingredient1 == ingredient1);
@@ -36,20 +38,27 @@ public class RecipeManager : MonoBehaviour
 
                 newPotionTitle.text = potion.name;
                 newPotionDescription.text = potion.description;
-                if (potion.requestNumber > 0)
+
+                if (potion.request)
                 {
-                    newPotionSprite.sprite = specialPotion;
                     unlockedSpecialPotions++;
                     if (unlockedSpecialPotions >= 3)
                     {
                         labDrawer.SetActive(false);
                         potionDisplay.SetActive(true);
                     }
+
+                    //
+                    if (!potion.request.completed)
+                    {
+                        potion.request.CompleteRequest(potion);
+                        requestManager.CompleteRequest(potion.request);
+                    }
+                    
                 }
-                else
-                {
-                    newPotionSprite.sprite = normalPotion;
-                }
+                
+                newPotionSprite.sprite = potion.sprite;
+                
                 newPotionCanvas.SetActive(true);
 
             }
@@ -60,14 +69,9 @@ public class RecipeManager : MonoBehaviour
                     repeatedSprite.sprite = dudPotion;
                     repeatedTitle.text = "Dud Item";
                 }
-                else if (potion.requestNumber > 0)
-                {
-                    repeatedSprite.sprite = specialPotion;
-                    repeatedTitle.text = potion.name;
-                }
                 else
                 {
-                    repeatedSprite.sprite = normalPotion;
+                    repeatedSprite.sprite = potion.sprite;
                     repeatedTitle.text = potion.name;
                 }
                 repeatedCanvas.SetActive(true);

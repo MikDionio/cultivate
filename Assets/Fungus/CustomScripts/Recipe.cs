@@ -13,6 +13,7 @@ public class Recipe : ScriptableObject
     public string directions;
     public bool unlocked;
     public int requestNumber = 0;
+    public Request request;
 
     private void OnEnable()
     {
