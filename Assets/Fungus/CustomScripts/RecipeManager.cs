@@ -42,13 +42,7 @@ public class RecipeManager : MonoBehaviour
                 if (potion.request)
                 {
                     unlockedSpecialPotions++;
-                    if (unlockedSpecialPotions >= 3)
-                    {
-                        labDrawer.SetActive(false);
-                        potionDisplay.SetActive(true);
-                    }
-
-                    //
+                    
                     if (!potion.request.completed)
                     {
                         potion.request.CompleteRequest(potion);
