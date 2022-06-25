@@ -9,11 +9,14 @@ public class Recipe : ScriptableObject
     public Sprite sprite;
     public string ingredient1;
     public string ingredient2;
+    [TextArea(3, 10)]
     public string description;
     public string directions;
     public bool unlocked;
     public int requestNumber = 0;
     public Request request;
+    [TextArea(3, 10)]
+    public string completedText;
 
     private void OnEnable()
     {

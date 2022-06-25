@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: New Recipe 19
   m_EditorClassIdentifier: 
   name: Cronenberg's Scabby Lotion
-  sprite: {fileID: 21300000, guid: c1b637eea06a3884b980266193171d39, type: 3}
+  sprite: {fileID: 21300000, guid: 68614a48d11270b4dba89c5d3b7db082, type: 3}
   ingredient1: Be-Gone Bengay Cream
   ingredient2: Chloroform Car-Freshner
   description: An all-body lotion that turns your husband into the disgusting monster
@@ -21,3 +21,5 @@ MonoBehaviour:
   directions: 
   unlocked: 0
   requestNumber: 0
+  request: {fileID: 0}
+  completedText: 

@@ -14,31 +14,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Mary Anne Buford
   housewifeSprite: {fileID: 0}
-  text: '"Mary Anne''s husband of 20 years seems completely disinterested in her
-    as a person, but he''s been driving her crazy ever since he hit his midlife crisis.
-    In fact, he spends more time with his ''64 Mustang than her! He''s even asked
-    her to buy specific special products for the car, <b>as he loves the smell of
-    berries</b>.  Mary Anne plans to use this to her advantage, thinking she can
-    sabotage his car the next time she cleans it.  Perhaps I can make use of the
-    Bellavendetta plant in my garden to help her out. Though, I think I will need
-    <b>something more fragrant</b> to help hide any whiff of the noxious substance,
-    and Mary Anne''s malice."'
-  defaultText: '"Mary Anne''s husband of 20 years seems completely disinterested
-    in her as a person, but he''s been driving her crazy ever since he hit his midlife
+  text: '"I gave Mary Anne a suitably deadly replacement for her special car cleaning
+    products using the <b>Bellavendetta berry</b> and <b>some vintage perfume</b>
+    I got as a gift.
+
+
+    That very night, her husband got into a terrible, fatal
+    accident on the speedway, as one would if you lose consciousness while you''re
+    on the wheel. How reckless!
+
+
+    Nevertheless, congratulations to the new widow.
+    I''m sure I''ll be seeing more of Mary Anne''s cheery personality once again."'
+  defaultText: 'Mary Anne''s husband of 20 years seems completely disinterested in
+    her as a person, but he''s been driving her crazy ever since he hit his midlife
     crisis. In fact, he spends more time with his ''64 Mustang than her! He''s even
     asked her to buy specific special products for the car, <b>as he loves the smell
-    of berries</b>.  Mary Anne plans to use this to her advantage, thinking she can
-    sabotage his car the next time she cleans it.  Perhaps I can make use of the
-    Bellavendetta plant in my garden to help her out. Though, I think I will need
-    <b>something more fragrant</b> to help hide any whiff of the noxious substance,
-    and Mary Anne''s malice."'
-  completedText: '"I gave Mary Anne a suitably deadly replacement for her special
+    of berries</b>.
+
+
+    Mary Anne plans to use this to her advantage, thinking
+    she can sabotage his car for a one-way ticket on the highway to hell.
+
+
+    Perhaps
+    I can make use of the Bellavendetta plant in my garden to help her out. Though,
+    I think I will need <b>something more fragrant</b> to help hide any whiff of
+    the noxious substance, and Mary Anne''s malice.'
+  completedText: 'I gave Mary Anne a suitably deadly replacement for her special
     car cleaning products using the <b>Bellavendetta berry</b> and <b>some vintage
-    perfume</b> I got as a gift.  That very night, her husband got into a terrible,
+    perfume</b> I got as a gift.
+
+
+    That very night, her husband got into a terrible,
     fatal accident on the speedway, as one would if you lose consciousness while
-    you''re on the wheel. How reckless!  Nevertheless, congratulations to the new
-    widow. I''m sure I''ll be seeing more of Mary Anne''s cheery personality once
-    again."'
-  recipe: {fileID: 0}
-  completed: 0
+    you''re on the wheel. How reckless!
+
+
+    Nevertheless, congratulations to the
+    new widow. I''m sure I''ll be seeing more of Mary Anne''s cheery personality
+    once again.'
+  recipe: {fileID: 11400000, guid: 2ba466d20949a1545a1c5f98f931f487, type: 2}
+  completed: 1
   requestNumber: 1

@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: New Recipe 20
   m_EditorClassIdentifier: 
   name: Parfum D'Amor
-  sprite: {fileID: 21300000, guid: c1b637eea06a3884b980266193171d39, type: 3}
+  sprite: {fileID: 21300000, guid: 68614a48d11270b4dba89c5d3b7db082, type: 3}
   ingredient1: Chloroform Car-Freshner
-  ingredient2: Rooty Tooty
+  ingredient2: Rooty Tooty Dead 'n' Fruity
   description: Make your sleazy husband's dreams come true by instigating a cannibalistic
     frenzy with his mistresses just by the way he smells.
   directions: 
   unlocked: 0
   requestNumber: 0
+  request: {fileID: 0}
+  completedText: 

@@ -14,24 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Barbara Truman
   housewifeSprite: {fileID: 0}
-  text: 
-  defaultText: "\"Perhaps the only sin worse committing than gluttony is being an
-    ingrate of a man. Mrs. Truman from across the street lives with his trust fund
-    baby husband. She's hatched two plans to slip the pig something that will fastrack
-    the inheritance for her children.  One is to exploit her husband's ridiculous
-    taste for expensive things. He starts everyday with pancakes flown in from Canada,
-    topped with <b>fresh fruit pur\xE9e compacted into molds.</b> Is there a way
-    to recreate this in the greenhouse?  The other option involves triggering her
-    husband's weak lungs, possibly <b>through an irritant.</b> Although, we will
-    have to be careful: tricking him might not be as <b>easy as giving candy</b>
-    to a bratty boy.\""
-  completedText: '"I gave Mary Anne a suitably deadly replacement for her special
-    car cleaning products using the <b>Bellavendetta berry</b> and <b>some vintage
-    perfume</b> I got as a gift.  That very night, her husband got into a terrible,
-    fatal accident on the speedway, as one would if you lose consciousness while
-    you''re on the wheel. How reckless!  Nevertheless, congratulations to the new
-    widow. I''m sure I''ll be seeing more of Mary Anne''s cheery personality once
-    again."'
+  text: "Perhaps the only sin worse committing than gluttony is being an ingrate
+    of a man. Mrs. Truman from across the street lives with his trust fund baby husband.
+    She's hatched two plans to slip the pig something that will fastrack the inheritance
+    for her children.\r\n\r\nOne is to exploit her husband's ridiculous taste for
+    expensive things. He starts everyday with pancakes made from ingredients flown
+    in from the Midwest, mixed with <b>fresh fruit pur\xE9e compacted into molds.</b>
+    Is there a way to recreate this in the greenhouse?\r\n\r\nThe other option involves
+    triggering her husband's weak lungs, possibly <b>through an air-borne irritant.</b>
+    Although, we will have to be careful: tricking him might not be as <b>easy as
+    giving candy</b> to a bratty boy."
+  defaultText: "Perhaps the only sin worse committing than gluttony is being an ingrate
+    of a man. Mrs. Truman from across the street lives with his trust fund baby husband.
+    She's hatched two plans to slip the pig something that will fastrack the inheritance
+    for her children.\r\n\r\nOne is to exploit her husband's ridiculous taste for
+    expensive things. He starts everyday with pancakes made from ingredients flown
+    in from the Midwest, mixed with <b>fresh fruit pur\xE9e compacted into molds.</b>
+    Is there a way to recreate this in the greenhouse?\r\n\r\nThe other option involves
+    triggering her husband's weak lungs, possibly <b>through an air-borne irritant.</b>
+    Although, we will have to be careful: tricking him might not be as <b>easy as
+    giving candy</b> to a bratty boy."
   recipe: {fileID: 0}
   completed: 0
   requestNumber: 2

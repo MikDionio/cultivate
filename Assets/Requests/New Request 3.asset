@@ -14,32 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Wanda M. Ellis
   housewifeSprite: {fileID: 0}
-  text: "\"Perhaps the only sin worse committing than gluttony is being an ingrate
-    of a man. Mrs. Truman from across the street lives with his trust fund baby husband.
-    She's hatched two plans to slip the pig something that will fastrack the inheritance
-    for her children.  One is to exploit her husband's ridiculous taste for expensive
-    things. He starts everyday with pancakes flown in from Canada, topped with <b>fresh
-    fruit pur\xE9e compacted into molds.</b> Is there a way to recreate this in the
-    greenhouse?  The other option involves triggering her husband's weak lungs, possibly
-    <b>through an irritant.</b> Although, we will have to be careful: tricking him
-    might not be as <b>easy as giving candy</b> to a bratty boy.\""
-  defaultText: "\"Perhaps the only sin worse committing than gluttony is being an
-    ingrate of a man. Mrs. Truman from across the street lives with his trust fund
-    baby husband. She's hatched two plans to slip the pig something that will fastrack
-    the inheritance for her children.  One is to exploit her husband's ridiculous
-    taste for expensive things. He starts everyday with pancakes flown in from Canada,
-    topped with <b>fresh fruit pur\xE9e compacted into molds.</b> Is there a way
-    to recreate this in the greenhouse?  The other option involves triggering her
-    husband's weak lungs, possibly <b>through an irritant.</b> Although, we will
-    have to be careful: tricking him might not be as <b>easy as giving candy</b>
-    to a bratty boy.\""
-  completedText: '"I gave Mary Anne a suitably deadly replacement for her special
-    car cleaning products using the <b>Bellavendetta berry</b> and <b>some vintage
-    perfume</b> I got as a gift.  That very night, her husband got into a terrible,
-    fatal accident on the speedway, as one would if you lose consciousness while
-    you''re on the wheel. How reckless!  Nevertheless, congratulations to the new
-    widow. I''m sure I''ll be seeing more of Mary Anne''s cheery personality once
-    again."'
+  text: "Woe be to the woman wed to the washed-up chauvinist. Wanda lives with her
+    serial smoker and waste of a husband, and it\u2019s because of him that their
+    house constantly stinks to high heavens of smoldering tobacco. It\u2019s very
+    clear the old wheezer doesn\u2019t have much life left in him, so she\u2019s
+    taking the opportunity to steal his last breath.\r\n\r\nDecades of smoking have
+    dulled her husband\u2019s senses to the point that only something with <b>an
+    absolutely infernal kick</b> can register on his blackened taste buds, and he
+    is just one bad cigar drag away from inducing <b>a bout of pneumonitis</b> in
+    his smoke-choked lungs.\r\n\r\nEven without the excessive smoking, his body betrays
+    him with the ails and afflictions of old age. Wanda has to soothe these with
+    some <b>clear medicinal salve</b> every night, and if she has to reach into one
+    more unspeakable place she might just throw up. Maybe I can work my magic and
+    give her some well-needed breathing room\u2026 I'm sure no one will look twice
+    at a no-good pensioner with <b>obscenely raw rashes</b> all over his body."
+  defaultText: "Woe be to the woman wed to the washed-up chauvinist. Wanda lives
+    with her serial smoker and waste of a husband, and it\u2019s because of him that
+    their house constantly stinks to high heavens of smoldering tobacco. It\u2019s
+    very clear the old wheezer doesn\u2019t have much life left in him, so she\u2019s
+    taking the opportunity to steal his last breath.\r\n\r\nDecades of smoking have
+    dulled her husband\u2019s senses to the point that only something with <b>an
+    absolutely infernal kick</b> can register on his blackened taste buds, and he
+    is just one bad cigar drag away from inducing <b>a bout of pneumonitis</b> in
+    his smoke-choked lungs.\r\n\r\nEven without the excessive smoking, his body betrays
+    him with the ails and afflictions of old age. Wanda has to soothe these with
+    some <b>clear medicinal salve</b> every night, and if she has to reach into one
+    more unspeakable place she might just throw up. Maybe I can work my magic and
+    give her some well-needed breathing room\u2026 I'm sure no one will look twice
+    at a no-good pensioner with <b>obscenely raw rashes</b> all over his body."
   recipe: {fileID: 0}
   completed: 0
   requestNumber: 3

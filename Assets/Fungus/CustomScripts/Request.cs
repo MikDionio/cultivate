@@ -8,8 +8,8 @@ public class Request : ScriptableObject
     public new string name;
     public Sprite housewifeSprite;
     public string text;
+    [TextArea(3, 10)]
     public string defaultText;
-    public string completedText;
     public Recipe recipe;
     public bool completed;
     public int requestNumber;
@@ -23,7 +23,7 @@ public class Request : ScriptableObject
     public void CompleteRequest(Recipe potion)
     {
         completed = true;
-        text = completedText;
+        text = potion.completedText;
         recipe = potion; 
     }
 }

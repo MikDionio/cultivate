@@ -75,7 +75,7 @@ public class RequestManager : MonoBehaviour
     {
         currentPage = requestList.Count - 1;
         UpdateUI(request);
-        prevPage.SetActive(true);
+        if(currentPage!=0) prevPage.SetActive(true);
         nextPage.SetActive(false);
 
         Flowchart.BroadcastFungusMessage("CompleteRequest");

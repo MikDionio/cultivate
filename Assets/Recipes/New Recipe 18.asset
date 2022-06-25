@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: New Recipe 18
   m_EditorClassIdentifier: 
   name: The Last Supper
-  sprite: {fileID: 21300000, guid: c1b637eea06a3884b980266193171d39, type: 3}
+  sprite: {fileID: 21300000, guid: 68614a48d11270b4dba89c5d3b7db082, type: 3}
   ingredient1: Rooty Tooty Dead 'n' Fruity
   ingredient2: Throat Closer Inhaler
   description: The toxin of choice for the God-fearing woman. Not even Jesus can
@@ -21,3 +21,5 @@ MonoBehaviour:
   directions: 
   unlocked: 0
   requestNumber: 0
+  request: {fileID: 0}
+  completedText: 

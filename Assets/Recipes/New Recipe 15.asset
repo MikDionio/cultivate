@@ -19,6 +19,21 @@ MonoBehaviour:
   description: An aromatherapy car product that will guarantee a safe ride home --
     and by home I mean his grave.
   directions: 
-  unlocked: 0
+  unlocked: 1
   requestNumber: 0
   request: {fileID: 11400000, guid: 04f6879917441644dbd21bc3d9980248, type: 2}
+  completedText: 'I gave Mary Anne a suitably deadly replacement for her special
+    car cleaning products using the <b>Bellavendetta berry</b> and <b>some vintage
+    perfume</b> I got as a gift.
+
+    
+
+    That very night, her husband got into
+    a terrible, fatal accident on the speedway, as one would if you lose consciousness
+    while you''re on the wheel. How reckless!
+
+    
+
+    Nevertheless, congratulations
+    to the new widow. I''m sure I''ll be seeing more of Mary Anne''s cheery personality
+    once again.'

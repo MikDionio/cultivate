@@ -21,13 +21,13 @@ public class RecipeManager : MonoBehaviour
 
     //Unlocking new potion
     private int unlockedSpecialPotions=0;
-    public GameObject labDrawer, potionDisplay;
+    public GameObject labDrawer, potionDisplay, specialPotionPrefab;
     public RequestManager requestManager;
 
     public void Mix(string ingredient1, string ingredient2)
     {
-        List<Recipe> checkIngredient1 = RecipeList.FindAll(x => x.ingredient1 == ingredient1);
-        Recipe potion = checkIngredient1.Find(x => x.ingredient2 == ingredient2);
+        List<Recipe> checkIngredient1 = RecipeList.FindAll(x => x.ingredient1 == ingredient1 || x.ingredient1 == ingredient2);
+        Recipe potion = checkIngredient1.Find(x => x.ingredient2 == ingredient1 || x.ingredient2 == ingredient2);
 
         if (potion)
         {
@@ -53,6 +53,8 @@ public class RecipeManager : MonoBehaviour
                     {
                         potion.request.CompleteRequest(potion);
                         requestManager.CompleteRequest(potion.request);
+
+                        potionDisplay.transform.Find(potion.name).gameObject.SetActive(true);
                     }
                     
                 }

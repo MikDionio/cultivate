@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: New Recipe 17
   m_EditorClassIdentifier: 
   name: Brain Drain Cocaine
-  sprite: {fileID: 21300000, guid: c1b637eea06a3884b980266193171d39, type: 3}
+  sprite: {fileID: 21300000, guid: 68614a48d11270b4dba89c5d3b7db082, type: 3}
   ingredient1: Throat Closer Inhaler
   ingredient2: Nuclear Cuban Cigars
   description: This is your cokehead husband's brain on drugs -- out of oxygen.
   directions: 
   unlocked: 0
   requestNumber: 0
+  request: {fileID: 0}
+  completedText: 
