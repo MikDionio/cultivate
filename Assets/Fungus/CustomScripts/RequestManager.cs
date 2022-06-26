@@ -13,7 +13,7 @@ public class RequestManager : MonoBehaviour
     //Recipe Book Variables
     public GameObject nextPage, prevPage;
     public TextMeshProUGUI requestTitle, requestText, potionTitle, potionDescription;
-    public Image potionSprite;
+    public Image potionSprite, housewifeSprite;
     public Sprite lockedPotion;
 
     public void AddToList(Request request)
@@ -56,7 +56,7 @@ public class RequestManager : MonoBehaviour
     {
         requestTitle.text = request.name;
         requestText.text = request.text;
-
+        housewifeSprite.sprite = request.housewifeSprite;
         if (request.recipe)
         {
             potionTitle.text = request.recipe.name;
