@@ -22104,7 +22104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 137324135}
+  selectedFlowchart: {fileID: 1030662654}
 --- !u!4 &942036486
 Transform:
   m_ObjectHideFlags: 1
@@ -25377,7 +25377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -181.91437, y: 244.0376}
+  scrollPos: {x: -86.83244, y: -113.33953}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401
@@ -25389,8 +25389,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1030662814}
-  selectedCommands: []
+  - {fileID: 1030662702}
+  selectedCommands:
+  - {fileID: 1030662793}
   variables:
   - {fileID: 1030662638}
   - {fileID: 1030662649}
@@ -27322,7 +27323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 813.2466
+    x: 811.60724
     y: 163.7517
     width: 90.98361
     height: 40
@@ -29273,7 +29274,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 1157831063}
+  setSayDialog: {fileID: 1882158555}
 --- !u!114 &1030662794
 MonoBehaviour:
   m_ObjectHideFlags: 2
