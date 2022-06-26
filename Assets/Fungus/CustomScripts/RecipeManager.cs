@@ -38,7 +38,7 @@ public class RecipeManager : MonoBehaviour
 
                 newPotionTitle.text = potion.name;
                 newPotionDescription.text = potion.description;
-
+                print(potion);
                 if (potion.request)
                 {
                     unlockedSpecialPotions++;
@@ -48,13 +48,14 @@ public class RecipeManager : MonoBehaviour
                         potion.request.CompleteRequest(potion);
                         requestManager.CompleteRequest(potion.request);
 
-                        potionDisplay.transform.Find(potion.name).gameObject.SetActive(true);
+                        Transform potionChild = potionDisplay.transform.Find(potion.name);
+                            if(potionChild) potionChild.gameObject.SetActive(true);
+
                     }
                     
+
                 }
-                
                 newPotionSprite.sprite = potion.sprite;
-                
                 newPotionCanvas.SetActive(true);
 
             }

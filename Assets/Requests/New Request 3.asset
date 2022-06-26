@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: New Request 3
   m_EditorClassIdentifier: 
   name: Wanda M. Ellis
-  housewifeSprite: {fileID: 0}
+  housewifeSprite: {fileID: 21300000, guid: e05dcaa1648a31746a09e472e45ed8eb, type: 3}
   text: "Woe be to the woman wed to the washed-up chauvinist. Wanda lives with her
     serial smoker and waste of a husband, and it\u2019s because of him that their
     house constantly stinks to high heavens of smoldering tobacco. It\u2019s very

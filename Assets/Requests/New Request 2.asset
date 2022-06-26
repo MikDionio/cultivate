@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: New Request 2
   m_EditorClassIdentifier: 
   name: Barbara Truman
-  housewifeSprite: {fileID: 0}
+  housewifeSprite: {fileID: 21300000, guid: 64baeaf9cf61fc245990d7aac3f92b3a, type: 3}
   text: "Perhaps the only sin worse committing than gluttony is being an ingrate
     of a man. Mrs. Truman from across the street lives with his trust fund baby husband.
     She's hatched two plans to slip the pig something that will fastrack the inheritance

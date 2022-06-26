@@ -13,9 +13,22 @@ MonoBehaviour:
   m_Name: New Request 4
   m_EditorClassIdentifier: 
   name: Helen
-  housewifeSprite: {fileID: 0}
+  housewifeSprite: {fileID: 21300000, guid: 25e7c42a099643844b58c061ecbd56c7, type: 3}
   text: 
-  defaultText: 
-  recipe: {fileID: 0}
-  completed: 0
+  defaultText: '"I now spend all my free time studying the Bellavendetta plant. While
+    I am definitely not a botanist or chemist of any sort, I feel that I must begin
+    more complex experiments to truly test the limits of the herb.
+
+
+    Of the conconctions
+    I have recorded, <b>the gifts I''ve given to my friends have demonstrated the
+    most potential</b> for producing <b>a more concentrated, hybrid elixir.</b>
+
+
+    I
+    thought that mere curiosity is what''s been driving me to pursue this strange
+    hobby. But as I hear of my friends'' new-found independence and liberties, I
+    am starting to think of more personal uses for my research..."'
+  recipe: {fileID: 11400000, guid: 3a6adc4af577e4549ad03afd8ddf1b42, type: 2}
+  completed: 1
   requestNumber: 4
