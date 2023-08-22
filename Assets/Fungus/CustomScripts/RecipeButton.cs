@@ -16,6 +16,7 @@ public class RecipeButton : MonoBehaviour
         description.text = recipe.description;
         directions.text = recipe.directions;
         sprite.sprite = recipe.sprite;
+        sprite.gameObject.SetActive(true);
     }
     
 }

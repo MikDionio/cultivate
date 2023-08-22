@@ -65,7 +65,12 @@ namespace Fungus
             }
         }
         #endregion
+        protected virtual void Start()
+        {
 
+            startingPosition = transform.position;
+
+        }
         protected virtual void LateUpdate()
         {
             // iTween will sometimes override the object position even if it should only be affecting the scale, rotation, etc.
@@ -110,8 +115,6 @@ namespace Fungus
             float y = Input.mousePosition.y;
             delta = Camera.main.ScreenToWorldPoint(new Vector3(x, y, 10f)) - transform.position;
             delta.z = 0f;
-
-            startingPosition = transform.position;
 
             var eventDispatcher = FungusManager.Instance.EventDispatcher;
 

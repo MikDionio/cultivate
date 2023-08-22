@@ -61,13 +61,14 @@ public class RequestManager : MonoBehaviour
         {
             potionTitle.text = request.recipe.name;
             potionDescription.text = request.recipe.description;
+            potionSprite.gameObject.SetActive(true);
             potionSprite.sprite = request.recipe.sprite;
         }
         else
         {
             potionTitle.text = null;
             potionDescription.text = null;
-            potionSprite.sprite = lockedPotion;
+            potionSprite.gameObject.SetActive(false);
         }
     }
 
